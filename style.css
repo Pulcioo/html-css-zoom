@@ -17,7 +17,9 @@ i, span{
 
 /* classi riutilizzabili */
 
-
+.small{
+    font-size: 10px;
+}
 
 /****** MAIN ******/
 
@@ -76,4 +78,72 @@ main{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+/****** NAV ******/
+
+nav{
+    background-color: rgb(32, 30, 30);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+nav > * {
+    width: calc(100% / 3);
+}
+
+/* inizio sezione audi-video */
+
+.audio, .video{
+    display: inline-block;
+    text-align: center;
+    margin: 8px;
+}
+
+nav span{
+    display: block;
+    font-size: x-small;
+}
+
+nav i{
+    padding-bottom: 5px;
+    font-size: x-large;
+}
+
+/* inizio sezione setting */
+
+.settings ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.settings li{
+    color: white;
+    font-size: x-small;
+}
+
+.settings i{
+    display: block;
+    padding-bottom: 5px;
+}
+
+#inline{
+    display: inline;
+    padding-left: 10px;
+}
+
+.green{
+    color: rgb(67, 197, 67);
+}
+
+/* inizio sezione end-meeting */
+
+.end-meeting span{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    font-size: small;
 }
