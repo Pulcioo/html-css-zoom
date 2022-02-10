@@ -33,7 +33,7 @@ main{
     right: 5px;
 }
 
-main .speaker-view{
+.speaker-view{
     display: inline-block;
     background-color: gray;
     padding: 3px;
@@ -41,10 +41,39 @@ main .speaker-view{
     font-size: small;
 }
 
-main .full-screen{
+.full-screen{
     display: inline-block;
     background-color: gray;
     padding: 3px;
     border-radius: 5px; 
     font-size: small;
+}
+
+/* sezione video */
+
+.container-video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px;
+}
+
+.img-series{
+    width: 160px;
+    height:110px;
+    background-color: yellow;
+    background-image: url(https://picsum.photos/300/200);
+    background-size: cover;
+    margin: 3px;
+    position: relative;
+}
+
+.container-video span{
+    display: inline-block;
+    font-size: small;
+    padding: 3px;
+    background-color: rgba(189, 195, 199, 0.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
