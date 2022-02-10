@@ -1,5 +1,50 @@
+/* classi generiche */
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+i, span{
+    color: white;
+}
+
+/* classi riutilizzabili */
+
+
+
+/****** MAIN ******/
+
+/* sezione speaker e screen */
+
+main{
+    position: relative;
+}
+
+.icon-video {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+main .speaker-view{
+    display: inline-block;
+    background-color: gray;
+    padding: 3px;
+    border-radius: 5px; 
+    font-size: small;
+}
+
+main .full-screen{
+    display: inline-block;
+    background-color: gray;
+    padding: 3px;
+    border-radius: 5px; 
+    font-size: small;
 }
