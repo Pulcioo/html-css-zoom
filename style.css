@@ -21,6 +21,12 @@ i, span{
     font-size: 10px;
 }
 
+.arrow{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
 /****** MAIN ******/
 
 /* sezione speaker e screen */
